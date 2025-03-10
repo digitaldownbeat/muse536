@@ -4,8 +4,7 @@ const midiReader = require('./MidiFileReader');
 const Utils = require('./Utils');
 const { MidiFileAnalyzer } = require('./MidiFileAnalyzer');
 
-const midiFiles = Utils.getMidiFiles('../datasets/GiantMIDI-PIano_v1.0/midis');
-//const midiFiles = Utils.getMidiFiles('midi');
+const midiFiles = Utils.getMidiFiles('midi');
 
 const analyzeRandomFile = (req, res) => {
     const currentMidiFile = midiFiles[Math.floor(Math.random() * midiFiles.length)];
