@@ -1,0 +1,16 @@
+{
+  "name": "node-midi-reader",
+  "version": "1.0.0",
+  "description": "Reads a node file and makes the data viewable in a web table",
+  "main": "Server.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node server.js",
+    "build-web": "react-scripts build && mv build ../server/www"
+  },
+  "author": "John Best",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

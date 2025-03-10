@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+midi/*.mid
+*.zip
+output/*.mid
